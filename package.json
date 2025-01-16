@@ -1,0 +1,16 @@
+{
+      "name": "patient-management-dashboard",
+      "version": "1.0.0",
+      "description": "Patient management dashboard with React and Node.js",
+      "scripts": {
+        "client": "npm run dev --prefix client",
+        "server": "node server/server.js",
+        "dev": "concurrently \"npm run client\" \"npm run server\""
+      },
+      "keywords": [],
+      "author": "",
+      "license": "ISC",
+      "dependencies": {
+        "concurrently": "^8.2.2"
+      }
+    }
